@@ -8,6 +8,7 @@ class StudentInformationApiApplicationTests {
 
 	@Test
 	void contextLoads() {
+		//TODO code the tests
 	}
 
 }

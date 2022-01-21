@@ -27,7 +27,7 @@ public class StudentInformation implements Serializable {
     private String studentCourse;
 
     @Column(name = "studentAge", nullable = false)
-    private String studentAge;
+    private String studentAge; //always use lower case for initial letters
 
 
 }

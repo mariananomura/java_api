@@ -29,5 +29,8 @@ public class StudentInformation implements Serializable {
     @Column(name = "studentAge", nullable = false)
     private String studentAge; //always use lower case for initial letters
 
+    @Column(name = "studentSalary", nullable = false)
+    private String studentSalary; //always use lower case for initial letters
+
 
 }

@@ -18,13 +18,16 @@ public class StudentInformation implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long StudentId;
+    private Long studentId;
 
     @Column(name = "studentName", nullable = false)
-    private String StudentName;
+    private String studentName;
 
     @Column(name = "studentCourse", nullable = false)
-    private String StudentCourse;
+    private String studentCourse;
+
+    @Column(name = "studentAge", nullable = false)
+    private String studentAge;
 
 
 }
